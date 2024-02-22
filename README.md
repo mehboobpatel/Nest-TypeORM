@@ -53,9 +53,27 @@ after that change the username and password in the local.env file also
 
 ![alt text](image-2.png)
 
-## User DTO
+## User Entity (a DTO for DB used by repository(a pseudo db for backend that interacts with actual db))
 
-ope create-user.dto.ts
+in the user.entity.ts
+//the class name defined in this will autmtcly create a table called n nuser in the db
+![alt text](image-10.png)
+
+![alt text](image-11.png)
+
+
+create the Schema(DTO for DB)
+
+![alt text](image-9.png)
+
+THE userRepo will be using the class defined in user.entity.ts a Repostiry in service.ts
+
+![alt text](image-8.png)
+
+## User DTO (a DTO for backend usage to validate incoming request and processing))
+
+
+first create-user.dto.ts
 
 and add the suitable dto defination
 
