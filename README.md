@@ -81,20 +81,11 @@ DELETE call for removing
 ![alt text](image-6.png)
 
 
+by now we are using builtin Repository
 
-```bash
-# unit tests
-$ npm run test
+but you can use custom repository( in which the database interaction is written)
 
-# e2e tests
-$ npm run test:e2e
 
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+https://docs.nestjs.com/recipes/mikroorm#using-custom-repositories
 
 
